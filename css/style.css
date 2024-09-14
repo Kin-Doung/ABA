@@ -1,0 +1,95 @@
+body{
+    background-image: linear-gradient(to right , black, #3498db);
+    text-align: center;
+}
+h1{
+    margin-top: 10%;
+    color: transparent;
+    background-image: linear-gradient(to right, black 38%, #3498db 50%);
+    background-clip: text;
+}
+.container{
+    margin-left: 20%;
+    background-color: #1a5276 ;
+    width: 60vw;
+    height: 40vh;
+    border-radius: 5px;
+}
+input[type="text"]{
+    padding: 5px;
+    width: 60%;
+    margin: 4px;
+    outline-color: #3498db;
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+}
+button{
+    margin-right: 259px;
+    background-color: #3498db;
+    border: none;
+    margin-top: 3px;
+    border-radius: 2px;
+    padding: 5px;
+    cursor: pointer;
+}
+.robot{
+    height: 20vh;
+    width: 55px;
+    position: absolute;
+    top: 35%;
+    right: 177.5px;
+    height: 70px;
+
+}
+.banner{
+    border-radius: 5px 0 0px 5px;
+    position: absolute;
+    right: 150px;
+    width: 100px;
+    height: 40vh;
+    margin-right: 500px;
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+}
+.paper{
+    background-color: #3498db;
+    position: absolute;
+    top: 147px;
+    left: 69.6%;
+    width: 100px;
+    height: 39vh;
+    border-radius: 0px 5px 0 0;
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 100% 100%);
+}
+.line1{
+    background-color: #3498db;
+    top: 137px;
+    left: 52%;
+    position: absolute;
+    width: 180px;
+    font-size: 1.5px;
+    border-radius: 5px;
+}
+.line2{
+    background-color: #3498db;
+    top: 137px;
+    left: 29.2%;
+    position: absolute;
+    width: 180px;
+    font-size: 1.5px;
+    border-radius: 5px;
+}
+span{
+    background-color: #3498db;
+    position: absolute;
+    border-radius: 100%;
+    width: 10px;
+    height: 10px;
+    color: #3498db;
+    font-size: 1px;
+    left: 49.9%;
+    top: 133px;
+}
